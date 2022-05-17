@@ -166,6 +166,7 @@ Banner inicial e Header
 .intro {
   width: 100%;
   height: 100vh;
+  margin-bottom: 200px;
   display: flex;
   justify-content: center;
   background: url("../img/vava.png") no-repeat center;
@@ -367,13 +368,23 @@ a {
   align-items: center;  
 }
 .times h2{
+  position: relative;
   font-size: 3em;
-  width: max-content;
-  margin: 40px auto;
+  width: 100%;
+  text-align: center;
+}
+.times h2 sub{
+  color: #ffffff17;
+  position: absolute;
+  font-size: 4em;
+  z-index: -999;
+  top: -100px;
+  left: 38%;
 }
 .time{
   display: flex;
   flex-direction: column;
+  margin-bottom: 80px;
 }
 .time-logo{
   display: flex;
