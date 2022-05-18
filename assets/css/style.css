@@ -366,6 +366,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;  
+  background: url("../img/queissu.png") no-repeat center;
+  background-size: cover;
 }
 .times h2{
   position: relative;
@@ -404,7 +406,7 @@ a {
 }
 .time-players img{
   width: 200px;
-  width: 200px;
+  height: 200px;
   border-radius: 20px;
 }
 .time-players p{
